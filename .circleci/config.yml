@@ -8,10 +8,10 @@ jobs:
       - checkout
       - setup_remote_docker
       - run:
-        name: Install dependencies
-        command: |
-          apk add --no-cache py-pip=9.0.0-r1
-          pip install docker-compose==1.15.0
+          name: Install dependencies
+          command: |
+            apk add --no-cache py-pip=9.0.0-r1
+            pip install docker-compose==1.15.0
       - run:
           name: Run tests
           command: |
