@@ -8,15 +8,7 @@ jobs:
           name: The First Step
           command: |
             echo 'Hello World!'
-            echo 'This is the delivery pipeline'
-
-
-
-
-
-
-
-
+            echo 'This is the delivery pipeline version 2.1'
 
 
 
