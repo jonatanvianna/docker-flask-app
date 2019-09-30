@@ -9,7 +9,11 @@ jobs:
           command: |
             echo 'Hello World!'
             echo 'This is the delivery pipeline version 2.1'
-
+      - run:
+          name: Code has arrived
+          command: |
+            las -la
+            echo '^^^That should look familiar^^^'
 
 
 
