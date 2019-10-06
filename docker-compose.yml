@@ -12,7 +12,7 @@ services:
     image: redis:3.2.11
     networks:
       - my_net
-# this is a comment 
+# this is a comment
 networks:
   my_net:
     driver: bridge
